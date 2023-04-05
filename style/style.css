@@ -51,6 +51,12 @@ color: #050505;
 font-size: 15px
 }
 
+nav ul li a:hover {
+    text-decoration-line: underline;
+    /*text-transform: lowercase;*/
+    
+}
+
 .row{
     display: flex;
     height: 88%;
@@ -120,6 +126,8 @@ button{
 .card:hover{
     transform: translateY(-10px);
 }
+
+
 
 h5{
     color: #fff;
